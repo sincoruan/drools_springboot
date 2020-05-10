@@ -1,0 +1,8 @@
+package rules;
+
+rule "rule_helloworld"
+    when
+        eval(true)
+    then
+        System.out.println("triggered the rule_helloworld");
+end
